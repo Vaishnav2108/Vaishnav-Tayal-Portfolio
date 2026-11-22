@@ -11,7 +11,7 @@ export function Hero({ onHire }: { onHire: () => void }) {
           <div className="status mono"><span className="dot" aria-hidden="true" />{profile.role} · {profile.location}</div>
           <p className="hello">Hi, I’m {profile.firstName}.</p>
           <h1>
-            <span className="ln"><span>I build backends</span></span>
+            <span className="ln"><span>I build backend</span></span>
             <span className="ln"><span>and the apps on top.</span></span>
           </h1>
           <p className="lede" style={{ marginTop: 26 }}>
